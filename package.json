@@ -1,0 +1,26 @@
+{
+  "name": "komik-kode",
+  "version": "1.0.0",
+  "description": "komik-manga-comic",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifqyram/komik-kode.git"
+  },
+  "keywords": [
+    "comic",
+    "komik",
+    "manga",
+    "manhwa",
+    "manhua"
+  ],
+  "author": "Rifqi Ramadhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifqyram/komik-kode/issues"
+  },
+  "homepage": "https://github.com/rifqyram/komik-kode#readme"
+}

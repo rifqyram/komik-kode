@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Komik Kode</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-wrapper">
+        <div class="header">
+            <div class="logo">
+                <h2>Komik Kode</h2>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="list-nav" id="dropdown">
+                        List
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#fff">
+                            <path d="M24 24H0V0h24v24z" fill="none" opacity=".87" />
+                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z" />
+                        </svg>
+                    </li>
+                    <div class="dropdown-menu">
+                        <ul class="list-dropdown">
+                            <li class="dropdown-item">
+                                <img src="./assets/images/japan-flag.svg" alt="japan">
+                                Manga
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="./assets/images/korea-flag.png" alt="korea">
+                                Manhwa
+                            </li>
+                            <li class="dropdown-item">
+                                <img src="./assets/images/china-flag.png" alt="china">
+                                Manhua
+                            </li>
+                        </ul>
+                    </div>
+                    <li class="list-nav">Popular</li>
+                    <li class="list-nav">Recommended</li>
+                    <li class="list-nav">Genre</li>
+                </ul>
+            </nav>
+            <div class="search-nav">
+                <form>
+                    <input type="text" name="search" id="search" placeholder="Cari..">
+                    <button class="search-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                            fill="#ffff">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="toggle-nav">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main-wrapper">
+        <div class="main">
+            <!-- Content -->
+            <div class="article-wrapper" id="content">
+                <div class="content-title">
+                    <h3>Daily Updates</h3>
+                </div>
+                <div class="main-content">
+                    <div class="card-wrapper">
+                        <!-- Cards -->
+                        <svg class="loading" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            style="margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;"
+                            width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                            <circle cx="50" cy="50" r="32" stroke-width="8" stroke="#fe718d"
+                                stroke-dasharray="50.26548245743669 50.26548245743669" fill="none"
+                                stroke-linecap="round">
+                                <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite"
+                                    dur="1s" keyTimes="0;1" values="0 50 50;360 50 50"></animateTransform>
+                            </circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- Aside -->
+            <aside class="aside-wrapper">
+                <div class="aside">
+                    <div class="aside-title">
+                        <h3>My Biodata</h3>
+                        <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24"
+                            width="24px" fill="#000000">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                        </svg>
+                    </div>
+                    <div class="aside-content">
+                        <div class="bio-image">
+                            <img src="./assets/images/profile.png" alt="profile">
+                        </div>
+                        <div class="aside-data">
+                            <table>
+                                <tr>
+                                    <td>Nama</td>
+                                    <td>Muhamad Rifqi Ramadhan</td>
+                                </tr>
+                                <tr>
+                                    <td>Username</td>
+                                    <td>Rifqyram</td>
+                                </tr>
+                                <tr>
+                                    <td>Skill</td>
+                                    <td>Web Development, Javascript, Typescript, React, Java, Spring</td>
+                                </tr>
+                                <tr>
+                                    <td>Pendidikan</td>
+                                    <td>Universitas Indraprasta PGRI - Teknik Informatika</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-wrapper">
+        <div class="footer">
+            <div class="copyright"><span>©Komik Kode</span></div>
+            <div class="nav-footer">
+                <ul class="list-footer">
+                    <li class="item-footer">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="item-footer">
+                        <a href="#">Advertise</a>
+                    </li>
+                    <li class="item-footer">
+                        <a href="#">Write a Review</a>
+                    </li>
+                    <li class="item-footer">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./src/App.js"></script>
+</body>
+
+</html>
